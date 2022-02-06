@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var text: String = "100"
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            HorizontalScrollView(text: $text)
+                .padding(.top, 60)
+            Button("Add 100",
+                   action: updateText)
+                .padding(.bottom, 60)
+            Spacer()
+        }
+    }
+
+    func updateText() {
+        text += "100"
     }
 }
 

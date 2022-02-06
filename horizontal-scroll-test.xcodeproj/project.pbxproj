@@ -14,6 +14,7 @@
 		7F5B311127B0490D003D079D /* horizontal_scroll_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B311027B0490D003D079D /* horizontal_scroll_testTests.swift */; };
 		7F5B311B27B0490D003D079D /* horizontal_scroll_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B311A27B0490D003D079D /* horizontal_scroll_testUITests.swift */; };
 		7F5B311D27B0490D003D079D /* horizontal_scroll_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B311C27B0490D003D079D /* horizontal_scroll_testUITestsLaunchTests.swift */; };
+		7F5B312A27B04988003D079D /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B312927B04988003D079D /* HorizontalScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7F5B311627B0490D003D079D /* horizontal-scroll-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "horizontal-scroll-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5B311A27B0490D003D079D /* horizontal_scroll_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontal_scroll_testUITests.swift; sourceTree = "<group>"; };
 		7F5B311C27B0490D003D079D /* horizontal_scroll_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontal_scroll_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F5B312927B04988003D079D /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7F5B30FF27B0490B003D079D /* horizontal_scroll_testApp.swift */,
 				7F5B310127B0490B003D079D /* ContentView.swift */,
+				7F5B312927B04988003D079D /* HorizontalScrollView.swift */,
 				7F5B310327B0490D003D079D /* Assets.xcassets */,
 				7F5B310527B0490D003D079D /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F5B310227B0490B003D079D /* ContentView.swift in Sources */,
+				7F5B312A27B04988003D079D /* HorizontalScrollView.swift in Sources */,
 				7F5B310027B0490B003D079D /* horizontal_scroll_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
