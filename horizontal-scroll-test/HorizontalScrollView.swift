@@ -23,9 +23,8 @@ struct HorizontalScrollView: View {
                             .background(.red)
                             .padding(.bottom)
                     }
-                    .frame(minWidth: proxy.size.width
-                           ,idealHeight: 44
-                           )
+                    .frame(minWidth: proxy.size.width,
+                           idealHeight: 44)
                     .background(.yellow)
                 }
                 .onChange(of: text) { _ in
