@@ -12,13 +12,11 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Spacer()
             HorizontalScrollView(text: $text)
-                .padding(.top, 60)
+                .padding(.top, 100)
             Button("Add 100",
                    action: updateText)
-                .padding(.bottom, 60)
-            Spacer()
+                .padding(.bottom, 100)
         }
     }
 
